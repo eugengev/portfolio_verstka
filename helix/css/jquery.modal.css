@@ -1,0 +1,68 @@
+.modal {
+    display: none;
+    width: 500px;
+    background: #fff;
+    padding: 60px 60px 60px;
+    box-shadow: 0px 0px 79px 0px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    z-index: 60 !important;
+}
+
+.modal.modal-pic {
+    text-align: center;
+    width: auto;
+    padding: 0;
+/*    width: 640px;
+    padding: 0;
+    height: 80%;*/
+}
+#poppic img { max-width: 100%; max-height: 100%; }
+
+.modal a.close-modal {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    background: url(../images/close-bg.png) no-repeat 0 0;
+}
+
+.jquery-modal.blocker {
+    z-index: 30 !important;
+    background-color:  rgba(229, 229, 229, 0.4) !important;
+    -ms-filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    filter: blur(3px);
+}
+
+.blur{
+    -ms-filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    filter: blur(3px);
+}
+
+
+.modal__head { color:  #000000; font-size: 29px; font-weight: 400; line-height: 23px; text-align: center; padding-bottom: 45px; }
+    .modal__form-row { margin-bottom: 29px; position: relative; }
+        .modal__form-row label { position: absolute; right: 0; font-family: Roboto; color:  #969696; font-size: 11px; font-weight: 100; text-align: right; z-index: 10; bottom: 10px; display: none; }
+    .modal__form-inptxt { border: none; border-bottom: #1b1b1b solid 1px; outline: none; font-family: Roboto; color:  #6a6a6a; font-size: 14px; font-weight: 300; height: 30px;  width: 380px; text-align: center; }
+    .modal__form-inptxt:focus { border-bottom-color: #eb0029;  }
+    .modal__form-fileinput { padding: 11px 0 10px 35px; background: url(../images/fileupload.png) no-repeat; width: 180px; display: block; margin: 0 auto; color:  #1b1b1b; font-size: 10px; text-transform: uppercase; font-weight: 700; cursor: pointer; position: relative; }
+        .modal__form-fileinput:hover { color: #eb0029; }
+    .custom-file-input {  width: 100%; height: 100%; opacity: 0; filter: alpha(opacity=0); position: absolute; top: 0px; left: 0px; z-index: 99999; cursor: pointer; }
+    .mask-wrapper { margin: 0 -60px; text-align: center; }
+    .mask-wrapper .material { color:  #383838; font-size: 10px; font-weight: 700; border-top: #e5e5e5 solid 1px; padding: 30px 0;  display: block; }
+        .mask-wrapper .material span { color:  #6a6a6a; font-size: 14px; font-weight: 400;  }
+        .mask-wrapper .material a.mclose { display: inline-block; width: 11px; height: 11px; background: url(../images/delete-file.png) no-repeat; }
+
+    .modal__form-textarea { margin-top: 11px; margin-bottom: 5px; border: none; border: #1b1b1b solid 1px; outline: none; font-family: Roboto; color:  #6a6a6a; font-size: 14px; font-weight: 300; width: 350px; height: 94px; text-align: center; resize:none; padding: 15px; }
+        .modal__form-textarea:focus { border-color: #eb0029;  }
+
+    .modal__form-text { padding-bottom: 30px; position: relative; color:  #6a6a6a; font-size: 16px; font-weight: 300; line-height: 24px; text-align: center; }
+    .tcent .button-more { margin-top: 30px; }
