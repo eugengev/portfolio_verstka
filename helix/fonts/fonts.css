@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'PTSansRegular';
+    src: url('pts55f.eot');
+    src: url('pts55f.eot') format('embedded-opentype'),
+         url('pts55f.woff') format('woff'),
+         url('pts55f.ttf') format('truetype'),
+         url('pts55f.svg#PTSansRegular') format('svg');
+}
+@font-face {
+    font-family: 'RobotoBlack';
+    src: url('roboto-black.eot');
+    src: url('roboto-black.eot') format('embedded-opentype'),
+         url('roboto-black.woff') format('woff'),
+         url('roboto-black.ttf') format('truetype'),
+         url('roboto-black.svg#RobotoBlack') format('svg');
+}
+@font-face {
+    font-family: 'RobotoBlackItalic';
+    src: url('roboto-blackitalic.eot');
+    src: url('roboto-blackitalic.eot') format('embedded-opentype'),
+         url('roboto-blackitalic.woff') format('woff'),
+         url('roboto-blackitalic.ttf') format('truetype'),
+         url('roboto-blackitalic.svg#RobotoBlackItalic') format('svg');
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('roboto-bold.eot');
+    src: url('roboto-bold.eot') format('embedded-opentype'),
+         url('roboto-bold.woff') format('woff'),
+         url('roboto-bold.ttf') format('truetype'),
+         url('roboto-bold.svg#RobotoBold') format('svg');
+}
+@font-face {
+    font-family: 'RobotoBoldItalic';
+    src: url('roboto-bolditalic.eot');
+    src: url('roboto-bolditalic.eot') format('embedded-opentype'),
+         url('roboto-bolditalic.woff') format('woff'),
+         url('roboto-bolditalic.ttf') format('truetype'),
+         url('roboto-bolditalic.svg#RobotoBoldItalic') format('svg');
+}
+@font-face {
+    font-family: 'RobotoItalic';
+    src: url('roboto-italic.eot');
+    src: url('roboto-italic.eot') format('embedded-opentype'),
+         url('roboto-italic.woff') format('woff'),
+         url('roboto-italic.ttf') format('truetype'),
+         url('roboto-italic.svg#RobotoItalic') format('svg');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('roboto-light.eot');
+    src: url('roboto-light.eot') format('embedded-opentype'),
+         url('roboto-light.woff') format('woff'),
+         url('roboto-light.ttf') format('truetype'),
+         url('roboto-light.svg#RobotoLight') format('svg');
+}
+@font-face {
+    font-family: 'RobotoLightItalic';
+    src: url('roboto-lightitalic.eot');
+    src: url('roboto-lightitalic.eot') format('embedded-opentype'),
+         url('roboto-lightitalic.woff') format('woff'),
+         url('roboto-lightitalic.ttf') format('truetype'),
+         url('roboto-lightitalic.svg#RobotoLightItalic') format('svg');
+}
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('roboto-medium.eot');
+    src: url('roboto-medium.eot') format('embedded-opentype'),
+         url('roboto-medium.woff') format('woff'),
+         url('roboto-medium.ttf') format('truetype'),
+         url('roboto-medium.svg#RobotoMedium') format('svg');
+}
+@font-face {
+    font-family: 'RobotoMediumItalic';
+    src: url('roboto-mediumitalic.eot');
+    src: url('roboto-mediumitalic.eot') format('embedded-opentype'),
+         url('roboto-mediumitalic.woff') format('woff'),
+         url('roboto-mediumitalic.ttf') format('truetype'),
+         url('roboto-mediumitalic.svg#RobotoMediumItalic') format('svg');
+}
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('roboto-regular.eot');
+    src: url('roboto-regular.eot') format('embedded-opentype'),
+         url('roboto-regular.woff') format('woff'),
+         url('roboto-regular.ttf') format('truetype'),
+         url('roboto-regular.svg#RobotoRegular') format('svg');
+}
+@font-face {
+    font-family: 'RobotoThin';
+    src: url('roboto-thin.eot');
+    src: url('roboto-thin.eot') format('embedded-opentype'),
+         url('roboto-thin.woff') format('woff'),
+         url('roboto-thin.ttf') format('truetype'),
+         url('roboto-thin.svg#RobotoThin') format('svg');
+}
+@font-face {
+    font-family: 'RobotoThinItalic';
+    src: url('roboto-thinitalic.eot');
+    src: url('roboto-thinitalic.eot') format('embedded-opentype'),
+         url('roboto-thinitalic.woff') format('woff'),
+         url('roboto-thinitalic.ttf') format('truetype'),
+         url('roboto-thinitalic.svg#RobotoThinItalic') format('svg');
+}

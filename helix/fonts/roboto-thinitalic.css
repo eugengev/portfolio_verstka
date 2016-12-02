@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'RobotoThinItalic';
+    src: url('roboto-thinitalic.eot');
+    src: url('roboto-thinitalic.eot') format('embedded-opentype'),
+         url('roboto-thinitalic.woff') format('woff'),
+         url('roboto-thinitalic.ttf') format('truetype'),
+         url('roboto-thinitalic.svg#RobotoThinItalic') format('svg');
+}

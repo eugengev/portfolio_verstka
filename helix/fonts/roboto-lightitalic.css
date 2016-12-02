@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'RobotoLightItalic';
+    src: url('roboto-lightitalic.eot');
+    src: url('roboto-lightitalic.eot') format('embedded-opentype'),
+         url('roboto-lightitalic.woff') format('woff'),
+         url('roboto-lightitalic.ttf') format('truetype'),
+         url('roboto-lightitalic.svg#RobotoLightItalic') format('svg');
+}
