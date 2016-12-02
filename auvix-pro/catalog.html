@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="favicon.ico">
+	<meta charset="UTF-8">
+	<title>Auvix</title>
+	<!-- CSS -->
+
+	<link rel="stylesheet" href="css/all.min.css">
+</head>
+<body> 
+<!-- Заметка для разработчика
+Классы для header
+header-fix - на страницах главная, каталог для прижатия футера к вверху екрана
+ -->
+<header class="">
+	<div class="upper-header container">
+		<div class="logo">
+			<a href="/"><img src="images/logo.png" class="hide-mobile" height="74" width="185" alt="logo" title="logo"></a>
+			<a href="/"><img src="images/mobile-logo.png" class="show-mobile" height="40" width="162" alt="logo" title="logo"></a>
+		</div>
+		<div class="logo-description hide-mobile">Профессиональное<br>
+		аудиовизуальное оборудование
+		</div>
+		<div class="phones hide-mobile">
+			<a href="tel:+74957975775" >+7 (495) 797-57-75</a>
+			<a href="tel:+79267975775" >+7 (926) 797-57-75</a>
+		</div>
+		<div class="call hide-mobile">
+			<a href="javascript:void(0)" class="make-call">Заказать звонок</a>
+			<a href="javascript:void(0)" class="make-feedback">Обратная связь</a>
+		</div>
+		<div class="wrap-header-block hide-mobile">
+			<div class="login">
+				<a href="javascript:void(0)">Вход для дилеров</a>
+			</div>
+			<div class="language">
+				<a href="javascript:void(0)">EN</a>
+			</div>
+		</div>
+		<div class="mobile-menu show-mobile">
+			
+		</div>
+		<!-- mobile gamburger -->
+		<div class="show-mobile">
+			<a href="#" class="mobile-menu">
+			<svg version="1.1" id="menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 width="27px" height="18px" viewBox="0 0 18 12" enable-background="new 0 0 18 12" xml:space="preserve">
+			<path d="M17,7H1C0.448,7,0,6.552,0,5.999C0,5.447,0.448,5,1,5h16c0.552,0,1,0.447,1,0.999C18,6.552,17.552,7,17,7z M17,1.999H1
+				C0.448,1.999,0,1.552,0,1s0.448-1,1-1h16c0.552,0,1,0.448,1,1S17.552,1.999,17,1.999z M1,10h16c0.552,0,1,0.447,1,1
+				c0,0.552-0.448,1-1,1H1c-0.552,0-1-0.448-1-1C0,10.447,0.448,10,1,10z"/>
+			</svg>
+Меню</a>
+		</div>
+	</div>
+	<nav class="container-fluid hide-mobile">
+		<div class="container">
+			<a href="javascript:void(0);" class="distribution"><img src="images/svg/burger.svg" alt="burger" title="burger">Дистрибуция</a>
+			<ul class="navigate">
+				<li class="active">
+					<a href="javascript:void(0);">Каталог товаров</a>
+					<ul class="dropmenu menu-lvl2">
+						<li><a href="javascript:void(0);">Проекторы</a></li>						
+						<li><a href="javascript:void(0);">Проекционные экраны</a></li>						
+						<li><a href="javascript:void(0);">Интерактивное оборудование</a></li>						
+						<li>
+							<a href="javascript:void(0);">LCD и LED дисплеи</a>
+							<ul class="dropmenu menu-lvl3">
+								<li><a href="javascript:void(0);">LG</a></li>
+								<li><a href="javascript:void(0);">NEC</a></li>
+								<li><a href="javascript:void(0);">Panasonic</a></li>
+								<li><a href="javascript:void(0);">Philips</a></li>
+								<li><a href="javascript:void(0);">Samsung</a></li>
+								<li><a href="javascript:void(0);">Sharp</a></li>
+								<li><a href="javascript:void(0);">Sony</a></li>
+								<li><a href="javascript:void(0);">ViewSonic</a></li>
+							</ul>
+						</li>						
+						<li><a href="javascript:void(0);">Плазменные дисплеи</a></li>						
+						<li><a href="javascript:void(0);">Крепления и стойки</a></li>						
+						<li><a href="javascript:void(0);">Конгресс-системы</a></li>						
+						<li><a href="javascript:void(0);">Системы управления</a></li>						
+						<li><a href="javascript:void(0);">Продукты и решения Digital Signage</a></li>						
+					</ul>
+				</li>
+				<li><a href="javascript:void(0);">Маркетинговые акции</a></li>
+				<li><a href="javascript:void(0);">Работа с дилерами</a></li>
+			</ul>
+			<div class="search-form fl-r">
+				<form>
+					<input type="text" placeholder="Поиск по сайту">
+					<input type="submit" value=" ">
+				</form>
+				<a href="javascript:void(0);" class="btn-search"></a>
+			</div>
+		</div>
+	</nav>
+	<div class="breadcrumbs ">
+		<div class="container">
+		<a href="/" class="gohome"><img src="images/svg/home.svg" alt="home" title="home"></a>	
+			<ul>
+				<li><a href="javascript:void(0);">Дистрибуция</a></li>
+				<li><a href="javascript:void(0);">Каталог товаров</a></li>
+				<li><a href="javascript:void(0);">Проекторы</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+<div class="main-menu">
+	<div class="container">
+		<div class="close-block"><a href="#" class="bt-close-menu">Закрыть</a></div>
+		<div class="row">
+			<div class="col-xs-3">
+				<h4>Компания</h4>
+				<ul>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Награды и достижения</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Статьи</a></li>
+					<li><a href="#">Фотогалерея</a></li>
+					<li><a href="#">Вакансии</a></li>
+					<li><a href="#">Партнеры</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-3">
+				<h4>Оборудование</h4>
+				<ul>
+					<li><a href="#">Проекторы</a></li>
+					<li><a href="#">Экраны</a></li>
+					<li><a href="#">Интерактивные доски</a></li>
+					<li><a href="#">Панели</a></li>
+					<li><a href="#">Интеграционные продукты</a></li>
+					<li><a href="#">Крепления</a></li>
+				</ul>				
+			</div>
+			<div class="col-xs-3">
+				<h4>Учебный центр</h4>
+				<ul>
+					<li><a href="#">Тренинги по решениям</a></li>
+					<li><a href="#">Тренинги партнеров</a></li>
+					<li><a href="#">Вебинары</a></li>
+					<li><a href="#">Презентации и семинары</a></li>
+					<li><a href="#">Полезные статьи</a></li>
+				</ul>				
+			</div>
+			<div class="col-xs-3">
+				<h4>Системная интеграция</h4>
+				<ul>
+					<li><a href="#">Типовые решения</a></li>
+					<li><a href="#">Отраслевые решения</a></li>
+					<li><a href="#">Системы и технологии</a></li>
+					<li><a href="#">Клиенты и проекты</a></li>
+				</ul>				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6 div-center search-mobile">
+				<div class="formsearch">
+					<input type="text" class="inptxt" value="Поиск по сайту" />
+					<input type="submit" value="" class="inpsmb" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal-overlay"></div>
+<div class="modal-block-filter modal-block" id="modal-filter">
+<a href="javascript:void(0)" class="btn-back ">
+<svg version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="4.971px" height="8.5px" viewBox="0 0 4.971 8.5" enable-background="new 0 0 4.971 8.5" xml:space="preserve">
+<path d="M4.255,4.955L4.255,4.955L0.719,8.49L0.012,7.784l3.535-3.536L0.012,0.713l0.706-0.708l4.243,4.243L4.255,4.955z"/>
+</svg>
+Назад </a>
+<a href="javascript:void(0)" class="btn-close modal-close">
+    <svg version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="7.061px" height="7.063px" viewBox="0 0 7.061 7.063" enable-background="new 0 0 7.061 7.063" xml:space="preserve">
+<path d="M7.065,6.359L6.358,7.066L3.53,4.238L0.701,7.066l-0.707-0.707l2.829-2.828l-2.829-2.829l0.707-0.707L3.53,2.824
+    l2.828-2.829l0.707,0.707L4.237,3.531L7.065,6.359z"/>
+</svg>
+</a>
+    <form action="" class="filter ">
+                        <div class="inner-wrap-filter">
+    <h3 >Проекторы</h3>
+                            <ul class="filter-catalog-name-list"> 
+                                <li><a href="javascript:void(0);">Офисные</a></li>
+                                <li><a href="javascript:void(0);">Для домашнего кинотеатра</a></li>
+                                <li class="active"><a href="javascript:void(0);">Портативные</a></li>
+                                <li><a href="javascript:void(0);">Инсталляционные</a></li>
+                                <li><a href="javascript:void(0);">Для крупных мероприятий</a></li>
+                                <li><a href="javascript:void(0);">Короткофокусные</a></li>
+                                <li><a href="javascript:void(0);">Ультракороткофокусные</a></li>
+                            </ul>
+                            <div class="wrap-filter-block clearfix">
+                                <p class="filter-block-name">Цена</p>
+                                <div id="slider-snap"></div>
+                                <div class="wrap-snap">
+                                <div class="wrap-lower">
+                                    <input type="text" id="slider-snap-value-lower">
+                                </div>
+                                <div class="wrap-upper">
+                                    <input type="text" id="slider-snap-value-upper">
+                                </div>
+                                </div>
+
+                            </div>
+                            <div class="wrap-filter-block">
+                                <p class="filter-block-name">Производитель</p>
+                                <ul>
+                                    <li>
+                                        <input type="checkbox" class="checkbox" id="checkbox1"  checked />
+                                        <label for="checkbox1">Epson</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="checkbox" id="checkbox2" />
+                                        <label for="checkbox2">BenQ</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="checkbox" id="checkbox3" />
+                                        <label for="checkbox3">Acer</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="checkbox" id="checkbox4" />
+                                        <label for="checkbox4">ViewSonic</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="checkbox" id="checkbox5" />
+                                        <label for="checkbox5">Sony</label>
+                                    </li>
+                                </ul>
+                                
+                                
+                                
+
+                               
+                            </div>
+                            <div class="wrap-filter-block">
+                                <p class="filter-block-name">Технология</p>
+                                <input type="checkbox" class="checkbox" id="checkbox6" />
+                                <label for="checkbox6">3DLP</label>
+                                <input type="checkbox" class="checkbox" id="checkbox7" />
+                                <label for="checkbox7">3xLCD</label>
+                                <input type="checkbox" class="checkbox" id="checkbox8" />
+                                <label for="checkbox8">DLP</label>
+                                <input type="checkbox" class="checkbox" id="checkbox9" />
+                                <label for="checkbox9">SXRD</label>
+                                <div class="show-block">
+                                    <input type="checkbox" class="checkbox" id="checkbox6" />
+                                    <label for="checkbox6">3DLP</label>
+                                    <input type="checkbox" class="checkbox" id="checkbox7" />
+                                    <label for="checkbox7">3xLCD</label>
+                                    <input type="checkbox" class="checkbox" id="checkbox8" />
+                                    <label for="checkbox8">DLP</label>
+                                    <input type="checkbox" class="checkbox" id="checkbox9" />
+                                    <label for="checkbox9">SXRD</label>
+                                </div>
+                                <a href="javascript:void(0)" class="btn-more" data-show="Ещё параметры" data-hide="Скрыть">Ещё параметры</a>
+                            </div>
+                        </div>
+                        <input type="submit" value="Подобрать">
+                    </form>
+</div>
+<section id="workarea">
+    <section class="main container-fluid catalog-head">
+        <div class="container">
+            <div class="col-md-12 catalog-head-top">
+                <h1>Проекторы</h1>
+                <ul class="catalog-filter-name">
+                    <li><a href="javascript:void(0)">Офисные </a></li>
+                    <li><a href="javascript:void(0)">Для домашнего кинотеатра</a></li>
+                    <li class="active"><a href="javascript:void(0)">Портативные </a></li>
+                    <li><a href="javascript:void(0)">Инсталляционные</a></li>
+                    <li><a href="javascript:void(0)">Для крупных мероприятий</a></li>
+                    <li><a href="javascript:void(0)">Короткофокусные</a></li>
+                    <li><a href="javascript:void(0)">Ультракороткофокусные</a></li>
+                </ul>
+                <div class="catalog-description">
+                    <p>Мультимедийные проекторы решают презентационные задачи и набирают популярность в сферах жизни и бизнеса.</p>
+                    <p>Главное требованием к проектору — качество изображения с учетом характеристик демонстрируемых материалов и специфики помещения.</p>
+                </div>
+                <ul class="catalog-logo">
+                    <li>
+                        <a href="javascript:void(0);"><img src="images/tmp/catalog/logo-1.png" alt="pic-name"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);"><img src="images/tmp/catalog/logo-2.png" alt="pic-name"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);"><img src="images/tmp/catalog/logo-3.png" alt="pic-name"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);"><img src="images/tmp/catalog/logo-4.png" alt="pic-name"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);"><img src="images/tmp/catalog/logo-5.png" alt="pic-name"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);"><img src="images/tmp/catalog/logo-6.png" alt="pic-name"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);"><img src="images/tmp/catalog/logo-7.png" alt="pic-name"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);"><img src="images/tmp/catalog/logo-8.png" alt="pic-name"></a>
+                    </li>
+                </ul>
+            </div>
+            <img src="images/tmp/catalog/header-bg.png" alt="pic-name" class="catalog-header-bg">
+        </div>
+    </section>
+    <section class="catalog container-fluid">
+        <div class="container">
+            <div class="left-side">
+                <div class="wrap-sort">
+                    <p class="hide-mobile">Сортировать по</p>
+                    <select>
+                        <option>цене: по возрастанию</option>
+                        <option>цене: по убиванию</option>
+                    </select>
+                    <a href="javascript:void(0)" class="show-mobile btn-filter " data-modal-target="#modal-filter">Фильтр</a>
+                </div>
+                <div class="catalog-list">
+                    <!-- item -->
+                    <div class="one-element">
+                        <p class="new-item tooltip-product">Новинка</p>
+                        <div class="wrap-img">
+                                <img src="images/tmp/catalog/product-1.png" alt="name-product">
+                        </div>
+                        <div class="wrap-description">
+                            <a href="javascript:void(0);">Лазерный проектор NEC P502HL (P502HLG)</a>
+                            <p>Технология: DLP, Разрешение: XGA (1024×768), Соотношение сторон изображения: 4:3, Яркость, лм: 3000, Контрастность: 15000, Поддержка 3D: Full 3D, Масса, нетто, кг.: 7.7 </p>
+                        </div>
+                        <div class="wrap-price">
+                            <p class="price-main"><b>30 153 041</b> руб.</p>
+                            <p class="price-description">
+                                Рекомендованная розничная цена
+                            </p>
+                            <a href="javascript:void(0)" class="btn-blue">Запросить дилерскую цену</a>
+                        </div>
+                        <p class="price">153 041 руб.</p>
+                    </div>
+                    <!-- end item -->
+                    <!-- item -->
+                    <div class="one-element">
+                        <p class="action tooltip-product">Акция</p>
+                        <div class="wrap-img">
+                            <img src="images/tmp/catalog/product-2.png" alt="name-product">
+                        </div>
+                        <div class="wrap-description">
+                            <a href="javascript:void(0);">Проекционный экран Projecta Tensioned Descender Large Electrol (10101431) 340x450 см</a>
+                            <p>Технология: DLP, Разрешение: XGA (1024×768), Соотношение сторон изображения: 4:3, Яркость, лм: 3000, Контрастность: 15000, Поддержка 3D: Full 3D, Масса, нетто, кг.: 7.7 </p>
+                        </div>
+                        <div class="wrap-price">
+                            <p class="price-main"><b>453 041</b> руб.</p>
+                            <p class="price-description">
+                                Рекомендованная розничная цена
+                            </p>
+                            <a href="javascript:void(0)" class="btn-blue">Запросить дилерскую цену</a>
+                        </div>
+                        <p class="price">153 041 руб.</p>
+                    </div>
+                    <!-- end item -->
+                    <!-- item -->
+                    <div class="one-element">
+                        <p class="sold tooltip-product">Распродажа</p>
+                        <div class="wrap-img">
+                            <img src="images/tmp/catalog/product-3.png" alt="name-product">
+                        </div>
+                        <div class="wrap-description">
+                            <a href="javascript:void(0);">Проектор 3D InFocus IN114ST</a>
+                            <p>Технология: DLP, Разрешение: XGA (1024×768), Соотношение сторон изображения: 4:3, Яркость, лм: 3000, Контрастность: 15000, Поддержка 3D: Full 3D, Масса, нетто, кг.: 7.7 </p>
+                        </div>
+                        <div class="wrap-price">
+                            <p class="price-main"><b>1 527 317</b> руб.</p>
+                            <p class="price-description">
+                                Рекомендованная розничная цена
+                            </p>
+                            <a href="javascript:void(0)" class="btn-blue">Запросить дилерскую цену</a>
+                        </div>
+                        <p class="price">153 041 руб.</p>
+                    </div>
+                    <!-- end item -->
+                    <!-- item -->
+                    <div class="one-element">
+                        <div class="wrap-img">
+                            <img src="images/tmp/catalog/product-4.png" alt="name-product">
+                        </div>
+                        <div class="wrap-description">
+                            <a href="javascript:void(0);">Интерактивный проектор Triumph Board</a>
+                            <p>Технология: DLP, Разрешение: XGA (1024×768), Соотношение сторон изображения: 4:3, Яркость, лм: 3000, Контрастность: 15000, Поддержка 3D: Full 3D, Масса, нетто, кг.: 7.7 </p>
+                        </div>
+                        <div class="wrap-price">
+                            <p class="price-main"><b>12 300 000</b> руб.</p>
+                            <p class="price-description">
+                                Рекомендованная розничная цена
+                            </p>
+                            <a href="javascript:void(0)" class="btn-blue">Запросить дилерскую цену</a>
+                        </div>
+                        <p class="price">153 041 руб.</p>
+                    </div>
+                    <!-- end item -->
+                    <!-- item -->
+                    <div class="one-element">
+                        <div class="wrap-img">
+                            <div class="inner-wrap">
+                                <img src="images/tmp/catalog/product-1.png" alt="name-product">
+                            </div>
+                        </div>
+                        <div class="wrap-description">
+                            <a href="javascript:void(0);">Лазерный проектор NEC P502HL (P502HLG)</a>
+                            <p>Технология: DLP, Разрешение: XGA (1024×768), Соотношение сторон изображения: 4:3, Яркость, лм: 3000, Контрастность: 15000, Поддержка 3D: Full 3D, Масса, нетто, кг.: 7.7 </p>
+                        </div>
+                        <div class="wrap-price">
+                            <p class="price-main"><b>30 153 041</b> руб.</p>
+                            <p class="price-description">
+                                Рекомендованная розничная цена
+                            </p>
+                            <a href="javascript:void(0)" class="btn-blue">Запросить дилерскую цену</a>
+                        </div>
+                        <p class="price">153 041 руб.</p>
+                    </div>
+                    <!-- end item -->
+                    <!-- item -->
+                    <div class="one-element">
+                        <div class="wrap-img">
+                            <img src="images/tmp/catalog/product-2.png" alt="name-product">
+                        </div>
+                        <div class="wrap-description">
+                            <a href="javascript:void(0);">Проекционный экран Projecta Tensioned Descender Large Electrol (10101431) 340x450 см</a>
+                            <p>Технология: DLP, Разрешение: XGA (1024×768), Соотношение сторон изображения: 4:3, Яркость, лм: 3000, Контрастность: 15000, Поддержка 3D: Full 3D, Масса, нетто, кг.: 7.7 </p>
+                        </div>
+                        <div class="wrap-price">
+                            <p class="price-main"><b>453 041</b> руб.</p>
+                            <p class="price-description">
+                                Рекомендованная розничная цена
+                            </p>
+                            <a href="javascript:void(0)" class="btn-blue">Запросить дилерскую цену</a>
+                        </div>
+                        <p class="price">153 041 руб.</p>
+                    </div>
+                    <!-- end item -->
+                    <!-- item -->
+                    <div class="one-element">
+                        <div class="wrap-img">
+                            <img src="images/tmp/catalog/product-3.png" alt="name-product">
+                        </div>
+                        <div class="wrap-description">
+                            <a href="javascript:void(0);">Проектор 3D InFocus IN114ST</a>
+                            <p>Технология: DLP, Разрешение: XGA (1024×768), Соотношение сторон изображения: 4:3, Яркость, лм: 3000, Контрастность: 15000, Поддержка 3D: Full 3D, Масса, нетто, кг.: 7.7 </p>
+                        </div>
+                        <div class="wrap-price">
+                            <p class="price-main"><b>1 527 317</b> руб.</p>
+                            <p class="price-description">
+                                Рекомендованная розничная цена
+                            </p>
+                            <a href="javascript:void(0)" class="btn-blue">Запросить дилерскую цену</a>
+                        </div>
+                        <p class="price">153 041 руб.</p>
+                    </div>
+                    <!-- end item -->
+                    <!-- item -->
+                    <div class="one-element">
+                        <div class="wrap-img">
+                            <img src="images/tmp/catalog/product-4.png" alt="name-product">
+                        </div>
+                        <div class="wrap-description">
+                            <a href="javascript:void(0);">Интерактивный проектор Triumph Board</a>
+                            <p>Технология: DLP, Разрешение: XGA (1024×768), Соотношение сторон изображения: 4:3, Яркость, лм: 3000, Контрастность: 15000, Поддержка 3D: Full 3D, Масса, нетто, кг.: 7.7 </p>
+                        </div>
+                        <div class="wrap-price">
+                            <p class="price-main"><b>12 300 000</b> руб.</p>
+                            <p class="price-description">
+                                Рекомендованная розничная цена
+                            </p>
+                            <a href="javascript:void(0)" class="btn-blue">Запросить дилерскую цену</a>
+                        </div>
+                        <p class="price">153 041 руб.</p>
+                    </div>
+                    <!-- end item -->
+                    <div class="clearfix"></div>
+                    <div class="wrap-link line">
+                        <a href="javascript:void(0)" class="btn-load-more">Показать ещё</a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-side">
+                
+                    <h3 class="hide-mobile">Подбор товаров</h3>
+                    <form action="" class="filter hide-mobile">
+        <div class="tooltip-block">
+            <a href="javascript:void(0);">Найдено 74</a>
+        </div>
+                        <div class="inner-wrap-filter">
+                            <ul class="filter-catalog-name-list"> 
+                                <li><a href="javascript:void(0);">Офисные</a></li>
+                                <li><a href="javascript:void(0);">Для домашнего кинотеатра</a></li>
+                                <li class="active"><a href="javascript:void(0);">Портативные</a></li>
+                                <li><a href="javascript:void(0);">Инсталляционные</a></li>
+                                <li><a href="javascript:void(0);">Для крупных мероприятий</a></li>
+                                <li><a href="javascript:void(0);">Короткофокусные</a></li>
+                                <li><a href="javascript:void(0);">Ультракороткофокусные</a></li>
+                            </ul>
+                            <div class="wrap-filter-block clearfix">
+                                <p class="filter-block-name">Цена</p>
+                                <div id="slider-snap-price"></div>
+                                <div class="wrap-lower">
+	                                <p>от</p>
+	                                <input type="text" id="slider-snap-price-value-lower">
+                                </div>
+                                <div class="wrap-upper">
+	                                <p>до</p>
+	                                <input type="text" id="slider-snap-price-value-upper">
+                                </div>
+
+                            </div>
+                            <div class="wrap-filter-block">
+                                <p class="filter-block-name">Производитель</p>
+                                <ul>
+                                	<li>
+                                		<input type="checkbox" class="checkbox" id="checkbox10"  checked />
+		                                <label for="checkbox10">Epson</label>
+                                	</li>
+                                	<li>
+                                		<input type="checkbox" class="checkbox" id="checkbox12" />
+		                                <label for="checkbox12">BenQ</label>
+                                	</li>
+                                	<li>
+                                		<input type="checkbox" class="checkbox" id="checkbox13" />
+		                                <label for="checkbox13">Acer</label>
+                                	</li>
+                                	<li>
+		                                <input type="checkbox" class="checkbox" id="checkbox14" />
+		                                <label for="checkbox14">ViewSonic</label>
+                                	</li>
+                                	<li>
+										<input type="checkbox" class="checkbox" id="checkbox15" />
+									    <label for="checkbox15">Sony</label>
+                                	</li>
+                                </ul>
+                                
+                                
+                                
+
+                               
+                            </div>
+                            <div class="wrap-filter-block">
+                                <p class="filter-block-name">Технология</p>
+                                <input type="checkbox" class="checkbox" id="checkbox16" />
+                                <label for="checkbox16">3DLP</label>
+                                <input type="checkbox" class="checkbox" id="checkbox17" />
+                                <label for="checkbox17">3xLCD</label>
+                                <input type="checkbox" class="checkbox" id="checkbox18" />
+                                <label for="checkbox18">DLP</label>
+                                <input type="checkbox" class="checkbox" id="checkbox19" />
+                                <label for="checkbox19">SXRD</label>
+                                <div class="show-block">
+                                    <input type="checkbox" class="checkbox" id="checkbox6" />
+                                    <label for="checkbox6">3DLP</label>
+                                    <input type="checkbox" class="checkbox" id="checkbox7" />
+                                    <label for="checkbox7">3xLCD</label>
+                                    <input type="checkbox" class="checkbox" id="checkbox8" />
+                                    <label for="checkbox8">DLP</label>
+                                    <input type="checkbox" class="checkbox" id="checkbox9" />
+                                    <label for="checkbox9">SXRD</label>
+                                </div>
+                                <a href="javascript:void(0)" class="btn-more" data-show="Ещё параметры" data-hide="Скрыть">Ещё параметры</a>
+                            </div>
+                        </div>
+                        <input type="submit" value="Подобрать">
+                        <div class="wrap-reset">
+                            <div class="inner-wrap">
+                                <input type="reset" value="Сбросить фильтр">
+                            </div>
+                        </div>
+                    </form>
+
+                <h3>Участие в акциях</h3>
+                <div class="news-block">
+                    <img src="images/tmp/news-1.png" alt="news" title="news" class="img-responsive">
+                    <a href="javascript:void(0)">IQBoard DVT TQ060: маленькие диагонали для маленьких пользователей</a>
+                    <p>Компактные размеры интерактивной доски IQBoard DVT TQ060 позволяют ребенку легко дотянуться до любой точки и работать по всей её поверхности.</p>
+                </div>
+                <div class="news-block">
+                    <img src="images/tmp/news-2.png" alt="news" title="news" class="img-responsive">
+                    <a href="javascript:void(0)">AUVIX на форуме AV-Focus в Сочи</a>
+                    <p>Экраны Lumien Master Large Control выпускается шириной до 7 метров и чрезвычайно востребованы при реализации проектов любого уровня сложности.</p>
+                </div>
+            
+                
+            </div>
+        </div>
+<div class="dilers-price container-fluid">
+    <div class="container">
+        <div class="col-md-4 col-sm-12">
+            <h2>Запрос
+            дилерской
+            цены</h2>
+            <p class="hide-mobile small-description">AUVIX — официальный дистрибутор многих ведущих мировых брендов.</p>
+            <p class="hide-mobile small-description">Благодаря этому, мы можем предложить специальные цены под ваш заказ или проект.</p>
+        </div>
+        <div class="col-md-8 col-sm-12">
+        <form class="dilers-form">
+
+            <div class="half">
+                <p>
+                    <label for="input-1" class="required">Имя</label>
+                </p>
+                <input id="input-1" type="text" required="">
+                <p>
+                    <label for="input-2" class="required">Эл. почта</label>
+                </p>
+                <input id="input-2" type="text" required="">
+            </div>
+            <div class="half">
+                <p>
+                    <label for="input-3" class="required">Компания</label>
+                </p>
+                <input id="input-3" type="text" required="">
+                <p>
+                    <label for="input-4">Город</label>
+                </p>
+                <input id="input-4" type="text">
+            </div>
+            <div class="clearfix"></div>
+            <p>
+                <label for="input-5">Телефон</label>
+            </p>
+            <input id="input-5" class="tel" type="text">
+            <p>
+                <label for="input-6">Дополнительная информация</label>
+            </p>
+            <textarea id="input-6"></textarea>
+            <div class="clearfix"></div>
+            <!-- <a href="javascript:void(0)" class="btn-blue">Запросить дилерскую цену</a> -->
+            <input type="submit" class="btn-blue" value="Запросить дилерскую цену">
+        </form>
+        </div>
+    </div>
+</div>
+    </section>
+</section>
+<footer class='container-fluid'>
+	<div class="container lists hide-mobile">
+		<div class="col-sm-3">
+		<div class="wrap-list">
+			<h4>Компания</h4>
+			<ul>
+				<li><a href="javascript:void(0);">О компании</a></li>
+				<li><a href="javascript:void(0);">Награды и достижения</a></li>
+				<li><a href="javascript:void(0);">Новости</a></li>
+				<li><a href="javascript:void(0);">Статьи</a></li>
+				<li><a href="javascript:void(0);">Фотогалерея</a></li>
+				<li><a href="javascript:void(0);">Вакансии</a></li>
+				<li><a href="javascript:void(0);">Партнеры</a></li>
+				<li><a href="javascript:void(0);">Контакты</a></li>
+			</ul>
+		</div>
+		</div>
+		<div class="col-sm-3">
+		<div class="wrap-list">
+			<h4>Оборудование</h4>
+			<ul>
+				<li><a href="javascript:void(0);">Проекторы</a></li>
+				<li><a href="javascript:void(0);">Экраны</a></li>
+				<li><a href="javascript:void(0);">Интерактивные доски</a></li>
+				<li><a href="javascript:void(0);">Панели</a></li>
+				<li><a href="javascript:void(0);">Интеграционные продукты</a></li>
+				<li><a href="javascript:void(0);">Крепления</a></li>
+			</ul>
+		</div>
+		</div>
+		<div class="col-sm-3">
+		<div class="wrap-list">
+			<h4>Учебный центр</h4>
+			<ul>
+				<li><a href="javascript:void(0);">Тренинги по решениям</a></li>
+				<li><a href="javascript:void(0);">Тренинги партнеров</a></li>
+				<li><a href="javascript:void(0);">Вебинары</a></li>
+				<li><a href="javascript:void(0);">Презентации и семинары</a></li>
+				<li><a href="javascript:void(0);">Полезные статьи</a></li>
+			</ul>
+		</div>
+		</div>
+		<div class="col-sm-3">
+		<div class="wrap-list">
+			<h4>Системная интеграция</h4>
+			<ul>
+				<li><a href="javascript:void(0);">Типовые решения</a></li>
+				<li><a href="javascript:void(0);">Отраслевые решения</a></li>
+				<li><a href="javascript:void(0);">Системы и технологии</a></li>
+				<li><a href="javascript:void(0);">Клиенты и проекты</a></li>
+			</ul>
+		</div>
+		</div>
+	</div>
+	<div class="container ">
+		<div class="wide-line clearfix">
+			<p class="fl-l">©1993-2015 AUVIX — профессиональное аудиовизуальное оборудование</p>
+			<p class="fl-r hide-tablet">
+				<a class="phone" href="tel:+74957975775">+7 (495) 797-57-75</a> 
+				<a class="phone" href="tel:+79267975775">+7 (926) 797-57-75</a>
+			</p>
+		</div>
+		<div class="wide-line clearfix">
+		<ul class="wide-style clearfix">
+			<li><a href="javascript:void(0);">Зарегистрироваться как дилер</a></li>
+			<li><a href="javascript:void(0);">Задать вопрос</a></li>
+			<li><a href="javascript:void(0);">Заказать проект</a></li>
+			<li><a href="javascript:void(0);">Сервисный центр</a></li>
+		</ul>
+		<div class="wrap-footer-block">
+			<p class=" show-tablet">
+					<a class="phone" href="tel:+74957975775">+7 (495) 797-57-75</a> 
+					<a class="phone" href="tel:+79267975775">+7 (926) 797-57-75</a>
+			</p>
+			<div class="social-icons">
+				<p>Мы в соц.сетях:</p>
+				<ul>
+					<li><a href="javascript:void(0);"><img src="images/svg/facebook.svg" alt="facebook" title="facebook"></a></li>
+					<li><a href="javascript:void(0);"><img src="images/svg/vk.svg" alt="vk" title="vk"></a></li>
+					<li><a href="javascript:void(0);"><img src="images/svg/twitter.svg" alt="twitter" title="twitter"></a></li>
+					<li><a href="javascript:void(0);"><img src="images/svg/youtube.svg" alt="youtube" title="youtube"></a></li>
+				</ul>
+		</div>
+		</div>
+		</div>
+	</div>
+</footer>
+
+<div class="color_block">
+	<p><a href="#" class="color_blue">синий</a></p>
+	<p><a href="#" class="color_red">краснЫй</a></p>
+	<p><a href="#" class="color_orange">оранжевій</a></p>
+</div>
+
+<!-- Js -->
+	    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+		<script src="https://www.youtube.com/iframe_api"></script>
+	<script src="js/all.min.js"></script>
+</body>
+</html>

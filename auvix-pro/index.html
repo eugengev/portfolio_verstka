@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="favicon.ico">
+	<meta charset="UTF-8">
+	<title>Auvix</title>
+	<!-- CSS -->
+
+	<link rel="stylesheet" href="css/all.min.css">
+</head>
+<body> 
+<!-- Заметка для разработчика
+Классы для header
+header-fix - на страницах главная, каталог для прижатия футера к вверху екрана
+ -->
+<header class="">
+	<div class="upper-header container">
+		<div class="logo">
+			<a href="/"><img src="images/logo.png" class="hide-mobile" height="74" width="185" alt="logo" title="logo"></a>
+			<a href="/"><img src="images/mobile-logo.png" class="show-mobile" height="40" width="162" alt="logo" title="logo"></a>
+		</div>
+		<div class="logo-description hide-mobile">Профессиональное<br>
+		аудиовизуальное оборудование
+		</div>
+		<div class="phones hide-mobile">
+			<a href="tel:+74957975775" >+7 (495) 797-57-75</a>
+			<a href="tel:+79267975775" >+7 (926) 797-57-75</a>
+		</div>
+		<div class="call hide-mobile">
+			<a href="javascript:void(0)" class="make-call">Заказать звонок</a>
+			<a href="javascript:void(0)" class="make-feedback">Обратная связь</a>
+		</div>
+		<div class="wrap-header-block hide-mobile">
+			<div class="login">
+				<a href="javascript:void(0)">Вход для дилеров</a>
+			</div>
+			<div class="language">
+				<a href="javascript:void(0)">EN</a>
+			</div>
+		</div>
+		<div class="mobile-menu show-mobile">
+			
+		</div>
+		<!-- mobile gamburger -->
+		<div class="show-mobile">
+			<a href="#" class="mobile-menu">
+			<svg version="1.1" id="menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 width="27px" height="18px" viewBox="0 0 18 12" enable-background="new 0 0 18 12" xml:space="preserve">
+			<path d="M17,7H1C0.448,7,0,6.552,0,5.999C0,5.447,0.448,5,1,5h16c0.552,0,1,0.447,1,0.999C18,6.552,17.552,7,17,7z M17,1.999H1
+				C0.448,1.999,0,1.552,0,1s0.448-1,1-1h16c0.552,0,1,0.448,1,1S17.552,1.999,17,1.999z M1,10h16c0.552,0,1,0.447,1,1
+				c0,0.552-0.448,1-1,1H1c-0.552,0-1-0.448-1-1C0,10.447,0.448,10,1,10z"/>
+			</svg>
+Меню</a>
+		</div>
+	</div>
+	<nav class="container-fluid hide-mobile">
+		<div class="container">
+			<a href="javascript:void(0);" class="distribution"><img src="images/svg/burger.svg" alt="burger" title="burger">Дистрибуция</a>
+			<ul class="navigate">
+				<li class="active">
+					<a href="javascript:void(0);">Каталог товаров</a>
+					<ul class="dropmenu menu-lvl2">
+						<li><a href="javascript:void(0);">Проекторы</a></li>						
+						<li><a href="javascript:void(0);">Проекционные экраны</a></li>						
+						<li><a href="javascript:void(0);">Интерактивное оборудование</a></li>						
+						<li>
+							<a href="javascript:void(0);">LCD и LED дисплеи</a>
+							<ul class="dropmenu menu-lvl3">
+								<li><a href="javascript:void(0);">LG</a></li>
+								<li><a href="javascript:void(0);">NEC</a></li>
+								<li><a href="javascript:void(0);">Panasonic</a></li>
+								<li><a href="javascript:void(0);">Philips</a></li>
+								<li><a href="javascript:void(0);">Samsung</a></li>
+								<li><a href="javascript:void(0);">Sharp</a></li>
+								<li><a href="javascript:void(0);">Sony</a></li>
+								<li><a href="javascript:void(0);">ViewSonic</a></li>
+							</ul>
+						</li>						
+						<li><a href="javascript:void(0);">Плазменные дисплеи</a></li>						
+						<li><a href="javascript:void(0);">Крепления и стойки</a></li>						
+						<li><a href="javascript:void(0);">Конгресс-системы</a></li>						
+						<li><a href="javascript:void(0);">Системы управления</a></li>						
+						<li><a href="javascript:void(0);">Продукты и решения Digital Signage</a></li>						
+					</ul>
+				</li>
+				<li><a href="javascript:void(0);">Маркетинговые акции</a></li>
+				<li><a href="javascript:void(0);">Работа с дилерами</a></li>
+			</ul>
+			<div class="search-form fl-r">
+				<form>
+					<input type="text" placeholder="Поиск по сайту">
+					<input type="submit" value=" ">
+				</form>
+				<a href="javascript:void(0);" class="btn-search"></a>
+			</div>
+		</div>
+	</nav>
+	<div class="breadcrumbs ">
+		<div class="container">
+		<a href="/" class="gohome"><img src="images/svg/home.svg" alt="home" title="home"></a>	
+			<ul>
+				<li><a href="javascript:void(0);">Дистрибуция</a></li>
+				<li><a href="javascript:void(0);">Каталог товаров</a></li>
+				<li><a href="javascript:void(0);">Проекторы</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+<div class="main-menu">
+	<div class="container">
+		<div class="close-block"><a href="#" class="bt-close-menu">Закрыть</a></div>
+		<div class="row">
+			<div class="col-xs-3">
+				<h4>Компания</h4>
+				<ul>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Награды и достижения</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Статьи</a></li>
+					<li><a href="#">Фотогалерея</a></li>
+					<li><a href="#">Вакансии</a></li>
+					<li><a href="#">Партнеры</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-3">
+				<h4>Оборудование</h4>
+				<ul>
+					<li><a href="#">Проекторы</a></li>
+					<li><a href="#">Экраны</a></li>
+					<li><a href="#">Интерактивные доски</a></li>
+					<li><a href="#">Панели</a></li>
+					<li><a href="#">Интеграционные продукты</a></li>
+					<li><a href="#">Крепления</a></li>
+				</ul>				
+			</div>
+			<div class="col-xs-3">
+				<h4>Учебный центр</h4>
+				<ul>
+					<li><a href="#">Тренинги по решениям</a></li>
+					<li><a href="#">Тренинги партнеров</a></li>
+					<li><a href="#">Вебинары</a></li>
+					<li><a href="#">Презентации и семинары</a></li>
+					<li><a href="#">Полезные статьи</a></li>
+				</ul>				
+			</div>
+			<div class="col-xs-3">
+				<h4>Системная интеграция</h4>
+				<ul>
+					<li><a href="#">Типовые решения</a></li>
+					<li><a href="#">Отраслевые решения</a></li>
+					<li><a href="#">Системы и технологии</a></li>
+					<li><a href="#">Клиенты и проекты</a></li>
+				</ul>				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6 div-center search-mobile">
+				<div class="formsearch">
+					<input type="text" class="inptxt" value="Поиск по сайту" />
+					<input type="submit" value="" class="inpsmb" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<section id="workarea">
+<section class="main container" >
+    <div class="col-md-12 clearfix">
+    <div class="wrap-tofixed clearfix">
+    <div class="container">
+        <div class="wrap-left fl-l">
+            <h1>Проекционный экран Projecta Tensioned Descender Large Electrol (10101431) 340x450 см</h1>
+        </div>
+        <div class="wrap-right fl-r">
+            <p class="price-description">Рекомендованная розничная цена</p>
+            <p class="price-main"><b>30 144 778</b> руб.</p>
+            <a href="javascript:void(0)" class="btn-blue">Запросить дилерскую цену</a>
+        </div>
+            <ul class="navigate-detail clearfix hide-mobile">
+                <li><a href="#characteristics">Характеристики</a></li>
+                <li><a href="#description">Описание</a></li>
+                <li><a href="#analogues">Аналоги</a></li>
+                <li><a href="#accessories">Аксессуары</a></li>
+                <li><a href="#reviews-block">Отзывы</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="col-md-12">
+        <div class="wrap-slider">
+            <!-- Блок Новинок-->
+            <div class="line-block">
+                <ul>
+                    <li>
+                        <p class="action">Акция</p>
+                    </li>
+                    <li>
+                        <p class="new-item">Новинка</p>
+                    </li>
+                    <li>
+                        <p class="sold">Распродажа</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- Конец -->
+            <div class="slider-for">
+                <div><img src="http://i2.fastpic.ru/big/2010/0321/db/f461aabcda5b8b1e07f17433d1e2cddb.jpg" alt="slider-img-name" title="slider-img-name"></div>
+                <div><img src="images/tmp/slider-2.png" alt="slider-img-name" title="slider-img-name"></div>
+                <div><img src="images/tmp/slider-3.png" alt="slider-img-name" title="slider-img-name"></div>
+                <div>
+                    <iframe class="slider-video" src="https://www.youtube.com/embed/494dUevcqJM?rel=0&amp;showinfo=0" style="border:0;" allowfullscreen></iframe>
+                </div>
+                <div><img src="http://i2.fastpic.ru/big/2010/0321/db/f461aabcda5b8b1e07f17433d1e2cddb.jpg" alt="slider-img-name" title="slider-img-name"></div>
+                <div><img src="images/tmp/slider-2.png" alt="slider-img-name" title="slider-img-name"></div>
+                <div><img src="images/tmp/slider-3.png" alt="slider-img-name" title="slider-img-name"></div>
+            </div>
+            <div class="slider-description hide-mobile">
+                <ul>
+                    <li>
+                        <p>Технология DLP</p>
+                    </li>
+                    <li>
+                        <p>Разрешение FullHD (1920x1080)</p>
+                    </li>
+                    <li>
+                        <p>Яркость 2000 лм</p>
+                    </li>
+                    <li>
+                        <p>Для домашнего кинотеатра, профессиональный</p>
+                    </li>
+                    <li>
+                        <p>Контраст 10000:1</p>
+                    </li>
+                    <li>
+                        <p>Full 3D</p>
+                    </li>
+                    <li>
+                        <p>Масса, нетто 7.7 кг</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="wrap-bottom-slider">
+            <div class="slider-nav">
+                <div><img src="http://i2.fastpic.ru/big/2010/0321/db/f461aabcda5b8b1e07f17433d1e2cddb.jpg" alt="slider-img-name" title="slider-img-name"></div>
+                <div><img src="images/tmp/slider-2.png" alt="slider-img-name" title="slider-img-name"></div>
+                <div><img src="images/tmp/slider-3.png" alt="slider-img-name" title="slider-img-name"></div>
+                <div class="video">
+                    <img src="images/tmp/slider-1.png" alt="slider-img-name" title="slider-img-name">
+                </div>
+                <div><img src="images/tmp/slider-1.png" alt="slider-img-name" title="slider-img-name"></div>
+                <div><img src="images/tmp/slider-2.png" alt="slider-img-name" title="slider-img-name"></div>
+                <div><img src="images/tmp/slider-3.png" alt="slider-img-name" title="slider-img-name"></div>
+            </div>
+            <a href="javascript:void(0)" class="pagination-btn" id="prev-slider"></a>
+            <a href="javascript:void(0)" class="pagination-btn" id="next-slider"></a>
+        </div>
+    </div>
+</section>
+<section class="detail-descripton container-fluid">
+    <div class="container">
+        <div class="col-sm-9">
+            <h3 id="characteristics">Характеристики</h3>
+            <div class="characteristics" >
+                <ul>
+                    <li>
+                        <p>Тип матрицы</p>
+                        <p>DLP</p>
+                    </li>
+                    <li>
+                        <p>Назначение</p>
+                        <p>для домашнего кинотеатра</p>
+                    </li>
+                    <li>
+                        <p>Соотношение сторон</p>
+                        <p>16:9</p>
+                    </li>
+                    <li>
+                        <p>Разрешение матрицы</p>
+                        <p>FullHD (1920x1080)</p>
+                    </li>
+                    <li>
+                        <p>Поддержка 3D-изображения</p>
+                        <p>Full 3D</p>
+                    </li>
+                    <li>
+                        <p>Цвет корпуса</p>
+                        <p>серый</p>
+                    </li>
+                    <li>
+                        <p>Контрастность</p>
+                        <p>10 000 :1</p>
+                    </li>
+                </ul>
+                <ul class="show-block">
+                    <li>
+                        <p>Тип матрицы</p>
+                        <p>DLP</p>
+                    </li>
+                    <li>
+                        <p>Назначение</p>
+                        <p>для домашнего кинотеатра</p>
+                    </li>
+                    <li>
+                        <p>Соотношение сторон</p>
+                        <p>16:9</p>
+                    </li>
+                    <li>
+                        <p>Разрешение матрицы</p>
+                        <p>FullHD (1920x1080)</p>
+                    </li>
+                    <li>
+                        <p>Поддержка 3D-изображения</p>
+                        <p>Full 3D</p>
+                    </li>
+                    <li>
+                        <p>Цвет корпуса</p>
+                        <p>серый</p>
+                    </li>
+                    <li>
+                        <p>Контрастность</p>
+                        <p>10 000 :1</p>
+                    </li>
+                </ul>
+                <a href="javascript:void(0)" class="btn-more" data-show="Показать ещё" data-hide="Скрыть">Показать ещё</a>
+            </div>
+            <!-- Описание -->
+            <h3 class="border-top" id="description">Описание</h3>
+            <div class="wrap-descripton">
+                <p class="descripton">
+                    Технология MULTI Touch интегрирована непосредственно в сам проектор - нет необходимости использовать дополнительную интерактивную доску. Инфракрасный лазерный излучатель легко монтируется в обычную маркерную доску и формирует рабочее пространство на всю поверхность доски. На рабочей поверхности доски можно писать и рисовать пальцем, стилусом и любым другим предметом. Распознает 10 точек касания одновременно!
+                </p>
+                <p class="show-block">
+                    Технология MULTI Touch интегрирована непосредственно в сам проектор - нет необходимости использовать дополнительную интерактивную доску. Инфракрасный лазерный излучатель легко монтируется в обычную маркерную доску и формирует рабочее пространство на всю поверхность доски. На рабочей поверхности доски можно писать и рисовать пальцем, стилусом и любым другим предметом. Распознает 10 точек касания одновременно!
+                </p>
+                <a href="javascript:void(0)" class="btn-more" data-show="Показать ещё" data-hide="Скрыть">Показать ещё</a>
+            </div>
+            <!-- Конец описание -->
+            <!-- Документы -->
+            <div class="documents clearfix">
+                <div class="one-doc clearfix">
+                    <div class="wrap-img">
+                        <img src="images/docs/pdf.png" alt="pdf" title="pdf">
+                    </div>
+                    <div class="wrap-description">
+                        <a href="javascript:void(0);" download>Руководство
+						по эксплуатации</a>
+                        <p>PDF / 248 Кб</p>
+                    </div>
+                </div>
+                <div class="one-doc clearfix">
+                    <div class="wrap-img">
+                        <img src="images/docs/doc.png" alt="doc" title="doc">
+                    </div>
+                    <div class="wrap-description">
+                        <a href="javascript:void(0);" download>Проекторы для дома и работы</a>
+                        <p>PDF / 248 Кб</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Конец документы -->
+            <!-- Аналоги -->
+            <div class="analogues">
+                <h3 class="border-top" id="analogues">Аналоги</h3>
+                <div class="wrap-block clearfix">
+                    <div class="one-block">
+                        <a href="javascript:void(0);" class="wrap-img">
+                            <img src="images/tmp/analog-1.png" alt="Лазерный проектор NEC P502HL (P502HLG)" title="Лазерный проектор NEC P502HL (P502HLG)">
+                        </a>
+                        <p class="name"><a href="javascript:void(0);" class="name">Лазерный проектор NEC P502HL (P502HLG)</a></p>
+                        <p class="price">153 041 руб.</p>
+                    </div>
+                    <div class="one-block">
+                        <a href="javascript:void(0);" class="wrap-img">
+                            <img src="images/tmp/analog-2.png" alt="Лазерный проектор NEC P502HL" title="Лазерный проектор NEC P502HL">
+                        </a>
+                        <p class="name"><a href="javascript:void(0);" class="name">Лазерный проектор NEC P502HL</a></p>
+                        <p class="price">153 041 руб.</p>
+                    </div>
+                    <div class="one-block">
+                        <a href="javascript:void(0);" class="wrap-img">
+                            <img src="images/tmp/analog-3.png" alt="Лазерный проектор NEC P502HL (P502HLG)" title="Лазерный проектор NEC P502HL (P502HLG)">
+                        </a>
+                        <p class="name"><a href="javascript:void(0);" class="name">Лазерный проектор NEC P502HL (P502HLG)</a></p>
+                        <p class="price">153 041 руб.</p>
+                    </div>
+                </div>
+                <div class="wrap-link line">
+                    <a href="javascript:void(0)" class="btn-load-more">Показать ещё</a>
+                </div>
+            </div>
+            <!-- Конец аналоги -->
+            <!-- Аксессуары -->
+            <div class="accessories">
+                <h3 class="border-top" id="accessories">Аксессуары</h3>
+                <div class="wrap-block clearfix">
+                    <div class="one-block">
+                        <a href="javascript:void(0);" class="wrap-img">
+                            <img src="images/tmp/acc-1.png" alt="Проекционный экран Projecta Tensioned Descender Large Electrol (10101431) 340x450 см" title="Проекционный экран Projecta Tensioned Descender Large Electrol (10101431) 340x450 см">
+                        </a>
+                        <p class="name"><a href="javascript:void(0);" class="name">Проекционный экран Projecta Tensioned Descender Large Electrol (10101431) 340x450 см</a></p>
+                        <p class="price">153 041 руб.</p>
+                    </div>
+                    <div class="one-block">
+                        <a href="javascript:void(0);" class="wrap-img">
+                            <img src="images/tmp/acc-2.png" alt="Вариообъектив Panasonic ET-D75LE6" title="Вариообъектив Panasonic ET-D75LE6">
+                        </a>
+                        <p class="name"><a href="javascript:void(0);" class="name">Вариообъектив Panasonic ET-D75LE6</a></p>
+                        <p class="price">30 153 041 руб.</p>
+                    </div>
+                    <div class="one-block">
+                        <a href="javascript:void(0);" class="wrap-img">
+                            <img src="images/tmp/acc-3.png" alt="Короткофокусная вариолинза Sony [VPLL-Z4007]" title="Короткофокусная вариолинза Sony [VPLL-Z4007]">
+                        </a>
+                        <p class="name"><a href="javascript:void(0);" class="name">Короткофокусная вариолинза Sony [VPLL-Z4007]</a></p>
+                        <p class="price">153 041 руб.</p>
+                    </div>
+                </div>
+                <div class="wrap-link line">
+                    <a href="javascript:void(0)" class="btn-load-more">Показать ещё</a>
+                </div>
+            </div>
+            <!-- Конец аксессуары -->
+            <!-- Отзывы -->
+            <div class="reviews">
+                <h3 class="border-top" id="reviews-block">Отзывы</h3>
+                <div id="reviews">
+                    <!-- One element -->
+                    <div>
+                        <div class="wrap-img">
+                            <img src="images/tmp/review-2.png" title="img name" alt="img name">
+                        </div>
+                        <div class="wrap-description">
+                            <p class="name">Достойный аппарат</p>
+                            <p class="small-description">ОАО «АСТЕРОИД-ИНВЕСТ»,
+                                <br> директор Иванова П.П.</p>
+                            <a href="javascript:void(0);" class="pdf">Отзыв в pdf</a>
+                            <p class="description">
+                                Очень довольна. Даже при дневном свете показывает хорошую картинку, если сравнивать с обычным ЖК монитором.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="wrap-img">
+                            <img src="images/tmp/review-1.png" alt="img name" title="img name">
+                        </div>
+                        <div class="wrap-description">
+                            <p class="name">Я довольна</p>
+                            <p class="small-description">ООО «Торговый дом Альбарутэния Интройт», ведущий специалист Прыгунова В.А.</p>
+                            <p class="description">
+                                Отличный проектор с ярким изображением для просмотра фильмов, игр, фото
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End element -->
+                    <!-- One element -->
+                    <div>
+                        <div class="wrap-img">
+                            <img src="images/tmp/review-1.png" alt="img name" title="img name">
+                        </div>
+                        <div class="wrap-description">
+                            <p class="name">Я довольна</p>
+                            <p class="small-description">ООО «Торговый дом Альбарутэния Интройт», ведущий специалист Прыгунова В.А.</p>
+                            <p class="description">
+                                Отличный проектор с ярким изображением для просмотра фильмов, игр, фото
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="wrap-img">
+                            <img src="images/tmp/review-2.png" alt="img name" title="img name">
+                        </div>
+                        <div class="wrap-description">
+                            <p class="name">Достойный аппарат</p>
+                            <p class="small-description">ОАО «АСТЕРОИД-ИНВЕСТ»,
+                                <br> директор Иванова П.П.</p>
+                            <a href="javascript:void(0);" class="pdf">Отзыв в pdf</a>
+                            <p class="description">
+                                Очень довольна. Даже при дневном свете показывает хорошую картинку, если сравнивать с обычным ЖК монитором.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End element -->
+                    <!-- One element -->
+                    <div>
+                        <div class="wrap-img">
+                            <img src="images/tmp/review-1.png" alt="img name" title="img name">
+                        </div>
+                        <div class="wrap-description">
+                            <p class="name">Я довольна</p>
+                            <p class="small-description">ООО «Торговый дом Альбарутэния Интройт», ведущий специалист Прыгунова В.А.</p>
+                            <p class="description">
+                                Отличный проектор с ярким изображением для просмотра фильмов, игр, фото
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="wrap-img">
+                            <img src="images/tmp/review-2.png" alt="img name" title="img name">
+                        </div>
+                        <div class="wrap-description">
+                            <p class="name">Достойный аппарат</p>
+                            <p class="small-description">ОАО «АСТЕРОИД-ИНВЕСТ»,
+                                <br> директор Иванова П.П.</p>
+                            <a href="javascript:void(0);" class="pdf">Отзыв в pdf</a>
+                            <p class="description">
+                                Очень довольна. Даже при дневном свете показывает хорошую картинку, если сравнивать с обычным ЖК монитором.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End element -->
+                </div>
+            </div>
+            <!-- Конец отзывы -->
+        </div>
+        <div class="col-sm-3">
+            <div class="pl-20">
+                <h3>Участие в акциях</h3>
+                <div class="news-block">
+                    <img src="images/tmp/news-1.png" alt="news" title="news" class="img-responsive">
+                    <a href="javascript:void(0)">IQBoard DVT TQ060: маленькие диагонали для маленьких пользователей</a>
+                    <p class="description">Компактные размеры интерактивной доски IQBoard DVT TQ060 позволяют ребенку легко дотянуться до любой точки и работать по всей её поверхности.</p>
+                </div>
+                <div class="news-block show-mobile">
+                    <img src="images/tmp/news-4.png" alt="news" title="news" class="img-responsive">
+                    <a href="javascript:void(0)">AUVIX – официальный дистрибьютор Sennheiser на территории России</a>
+                </div>
+                <!--  -->
+                <div class="clearfix"></div>
+                <h3>Участие в проектах</h3>
+                <div class="news-block">
+                    <img src="images/tmp/news-2.png" alt="news" title="news" class="img-responsive">
+                    <a href="javascript:void(0)">AUVIX на форуме AV-Focus в Сочи</a>
+                    <p class="description">Экраны Lumien Master Large Control выпускается шириной до 7 метров и чрезвычайно востребованы при реализации проектов любого уровня сложности.</p>
+                </div>
+                <div class="news-block">
+                    <img src="images/tmp/news-3.png" alt="news" title="news" class="img-responsive">
+                    <a href="javascript:void(0)">Lumien Master Large Control — большие экраны для больших проектов</a>
+                    <p class="description">Компания AUVIX выступила поставщиком проекционного оборудования Optoma для реализации проекта в Армянском музее.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="dilers-price container-fluid">
+    <div class="container">
+        <div class="col-md-4 col-sm-12">
+            <h2>Запрос
+			дилерской
+			цены</h2>
+            <p class="hide-mobile small-description">AUVIX — официальный дистрибутор многих ведущих мировых брендов.</p>
+            <p class="hide-mobile small-description">Благодаря этому, мы можем предложить специальные цены под ваш заказ или проект.</p>
+        </div>
+        <div class="col-md-8 col-sm-12">
+        <form class="dilers-form">
+            <div class="half">
+                <p>
+                    <label for="input-1" class="required">Имя</label>
+                </p>
+                <input id="input-1" type="text" required>
+                <p>
+                    <label for="input-2" class="required">Эл. почта</label>
+                </p>
+                <input id="input-2" type="text" required>
+            </div>
+            <div class="half">
+                <p>
+                    <label for="input-3" class="required">Компания</label>
+                </p>
+                <input id="input-3" type="text" required>
+                <p>
+                    <label for="input-4">Город</label>
+                </p>
+                <input id="input-4" type="text">
+            </div>
+            <div class="clearfix"></div>
+            <p>
+                <label for="input-5">Телефон</label>
+            </p>
+            <input id="input-5" class="tel" type="text">
+            <p>
+                <label for="input-6">Дополнительная информация</label>
+            </p>
+            <textarea id="input-6"></textarea>
+            <div class="clearfix"></div>
+            <!-- <a href="javascript:void(0)" class="btn-blue">Запросить дилерскую цену</a> -->
+            <input type="submit" class="btn-blue" value="Запросить дилерскую цену">
+		</form>
+        </div>
+    </div>
+</div>
+</section>
+<footer class='container-fluid'>
+	<div class="container lists hide-mobile">
+		<div class="col-sm-3">
+		<div class="wrap-list">
+			<h4>Компания</h4>
+			<ul>
+				<li><a href="javascript:void(0);">О компании</a></li>
+				<li><a href="javascript:void(0);">Награды и достижения</a></li>
+				<li><a href="javascript:void(0);">Новости</a></li>
+				<li><a href="javascript:void(0);">Статьи</a></li>
+				<li><a href="javascript:void(0);">Фотогалерея</a></li>
+				<li><a href="javascript:void(0);">Вакансии</a></li>
+				<li><a href="javascript:void(0);">Партнеры</a></li>
+				<li><a href="javascript:void(0);">Контакты</a></li>
+			</ul>
+		</div>
+		</div>
+		<div class="col-sm-3">
+		<div class="wrap-list">
+			<h4>Оборудование</h4>
+			<ul>
+				<li><a href="javascript:void(0);">Проекторы</a></li>
+				<li><a href="javascript:void(0);">Экраны</a></li>
+				<li><a href="javascript:void(0);">Интерактивные доски</a></li>
+				<li><a href="javascript:void(0);">Панели</a></li>
+				<li><a href="javascript:void(0);">Интеграционные продукты</a></li>
+				<li><a href="javascript:void(0);">Крепления</a></li>
+			</ul>
+		</div>
+		</div>
+		<div class="col-sm-3">
+		<div class="wrap-list">
+			<h4>Учебный центр</h4>
+			<ul>
+				<li><a href="javascript:void(0);">Тренинги по решениям</a></li>
+				<li><a href="javascript:void(0);">Тренинги партнеров</a></li>
+				<li><a href="javascript:void(0);">Вебинары</a></li>
+				<li><a href="javascript:void(0);">Презентации и семинары</a></li>
+				<li><a href="javascript:void(0);">Полезные статьи</a></li>
+			</ul>
+		</div>
+		</div>
+		<div class="col-sm-3">
+		<div class="wrap-list">
+			<h4>Системная интеграция</h4>
+			<ul>
+				<li><a href="javascript:void(0);">Типовые решения</a></li>
+				<li><a href="javascript:void(0);">Отраслевые решения</a></li>
+				<li><a href="javascript:void(0);">Системы и технологии</a></li>
+				<li><a href="javascript:void(0);">Клиенты и проекты</a></li>
+			</ul>
+		</div>
+		</div>
+	</div>
+	<div class="container ">
+		<div class="wide-line clearfix">
+			<p class="fl-l">©1993-2015 AUVIX — профессиональное аудиовизуальное оборудование</p>
+			<p class="fl-r hide-tablet">
+				<a class="phone" href="tel:+74957975775">+7 (495) 797-57-75</a> 
+				<a class="phone" href="tel:+79267975775">+7 (926) 797-57-75</a>
+			</p>
+		</div>
+		<div class="wide-line clearfix">
+		<ul class="wide-style clearfix">
+			<li><a href="javascript:void(0);">Зарегистрироваться как дилер</a></li>
+			<li><a href="javascript:void(0);">Задать вопрос</a></li>
+			<li><a href="javascript:void(0);">Заказать проект</a></li>
+			<li><a href="javascript:void(0);">Сервисный центр</a></li>
+		</ul>
+		<div class="wrap-footer-block">
+			<p class=" show-tablet">
+					<a class="phone" href="tel:+74957975775">+7 (495) 797-57-75</a> 
+					<a class="phone" href="tel:+79267975775">+7 (926) 797-57-75</a>
+			</p>
+			<div class="social-icons">
+				<p>Мы в соц.сетях:</p>
+				<ul>
+					<li><a href="javascript:void(0);"><img src="images/svg/facebook.svg" alt="facebook" title="facebook"></a></li>
+					<li><a href="javascript:void(0);"><img src="images/svg/vk.svg" alt="vk" title="vk"></a></li>
+					<li><a href="javascript:void(0);"><img src="images/svg/twitter.svg" alt="twitter" title="twitter"></a></li>
+					<li><a href="javascript:void(0);"><img src="images/svg/youtube.svg" alt="youtube" title="youtube"></a></li>
+				</ul>
+		</div>
+		</div>
+		</div>
+	</div>
+</footer>
+
+<div class="color_block">
+	<p><a href="#" class="color_blue">синий</a></p>
+	<p><a href="#" class="color_red">краснЫй</a></p>
+	<p><a href="#" class="color_orange">оранжевій</a></p>
+</div>
+
+<!-- Js -->
+	    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+		<script src="https://www.youtube.com/iframe_api"></script>
+	<script src="js/all.min.js"></script>
+</body>
+</html>
